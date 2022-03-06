@@ -1,7 +1,34 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.list {
+  height: 100%;
+  width: 50%;
+  float: left;
+  /* padding: 50px 50px; */
+}
+/* .contents {
+} */
+.image1 {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+.image2 {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.heading {
+  text-align: center;
+  float: left;
+  height: 50%;
+  width: 50%;
+  margin: 180px 0px;
 }
