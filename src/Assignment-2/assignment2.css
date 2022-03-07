@@ -1,7 +1,40 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+}
+.logo {
+  margin-right: 680px;
+}
+.search {
+  margin-top: 80px;
+}
+nav {
+  display: inline;
+}
+nav li {
+  display: inline;
+  margin-right: 230px;
+}
+aside li {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+img {
+  height: 196px;
+  width: 270px;
+}
+.toprow {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.bottomrow {
+  margin-left: 20px;
+  margin-top: 20px;
 }
