@@ -1,7 +1,102 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+header {
+  background: #92e0e5;
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+header nav {
+  float: right;
+}
+header img {
+  float: left;
+  /* text-indent: -9999px;
+  background: url("./images/image003.png") no-repeat; */
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+nav li {
+  display: inline-block;
+  padding: 17px 10px;
+}
+nav li:hover {
+  background: #3f8da7;
+  color: white;
+  cursor: pointer;
+}
+#hero {
+  background: url("./images/image017.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+#hero img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #3f8da7;
+  margin-bottom: 30px;
+}
+#hero h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.btn {
+  background: white;
+  text-decoration: none;
+  border: 5px solid #3f8da7;
+  color: #3f8da7;
+  padding: 5px 10px;
+}
+.btn:hover {
+  background: #3f8da7;
+  color: white;
+}
+.three-col {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.three-col img {
+  border-radius: 50%;
+  border: 5px solid #3f8da7;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0;
+}
+.three-col p {
+  margin-bottom: 40px;
+}
+footer {
+  text-align: center;
+  background: #3f8da7;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: white;
+}
+footer li {
+  display: inline-block;
+  margin: 0 25px;
+}
+footer ul {
+  margin: 40px 0;
+}
+.link {
+  color: white;
+}
+.link:hover {
+  color: #92e0e5;
 }
